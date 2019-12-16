@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.0 - ZWA.Application\ZWA.TaskManagement.Application\ZWA.TaskManagement.Application.csproj" />
+  </ItemGroup>
+
 </Project>

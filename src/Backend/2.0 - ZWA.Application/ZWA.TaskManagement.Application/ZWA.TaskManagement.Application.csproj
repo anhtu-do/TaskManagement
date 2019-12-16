@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\1.0 - ZWA.Domain\ZWA.TaskManagement.Domain\ZWA.TaskManagement.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Events\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
 </Project>
