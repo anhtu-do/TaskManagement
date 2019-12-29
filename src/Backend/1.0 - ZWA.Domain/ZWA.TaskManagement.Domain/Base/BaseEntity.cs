@@ -1,9 +1,8 @@
 ﻿using System;
-using ZWA.Domain.Core;
 
 namespace ZWA.TaskManagement.Domain.Base
 {
-    public class BaseEntity : IBaseEntity<Guid>
+    public class BaseEntity 
     {
         public Guid Id { get; set; }
 

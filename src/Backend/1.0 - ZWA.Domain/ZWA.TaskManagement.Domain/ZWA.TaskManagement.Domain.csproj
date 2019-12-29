@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\Framework\ZWA.Domain.Core\ZWA.Domain.Core.csproj" />
-  </ItemGroup>
-
 </Project>
